@@ -1,0 +1,107 @@
+header {
+  background-image: url(./pictures/background/hero-img.png);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+nav {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left .logo {
+  height: 50px;
+  cursor: pointer;
+}
+
+
+.bahrami {
+  font-family: "Montserrat" ;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 5px;
+  background: linear-gradient(to right , #7046C9 0% , #886BF5 17% , #A79AF6 52% , #C1C1F6 79% , #B2C8F6 92% , #B1D4FC 100% );
+  cursor: pointer;
+  color: transparent;
+  background-clip: text;
+}
+.header-left {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+.Sign-up-button {
+  font-family:"Noto Sans Arabic" ;
+  font-size: 12px;
+  padding: 11px 25px;
+  background-color: #375174;
+  border-radius: 25px;
+  border: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-button {
+  font-family:"Noto Sans Arabic" ;
+  font-size: 14px;
+  padding: 8px 30px;
+  margin-right: 5px;
+  border: 2px #375174 solid;
+  color: #375174;
+  background-color: #FFFFFF;
+  border-radius: 25px ;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-between {
+  border: 3px #3751743f solid;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 5px;
+}
+
+.header-between a {
+  font-family : "Noto Sans Arabic";
+  text-decoration: none;
+  color: #375174;
+  font-weight: 600;
+}
+
+.basket-icon-div {
+  position: relative;
+  margin-right: 20px;
+  cursor : pointer ;
+}
+
+.basket-icon {
+  width: 30px;
+}
+
+.count-orders {
+  font-size: 13px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #9fa6f0;
+  padding : 1px 6px;
+    border-radius : 40px ;
+    color: white;
+}
+
