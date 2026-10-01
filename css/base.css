@@ -1,0 +1,16 @@
+body {
+  font-family: Rubik ;
+  background-color : white ;
+}
+
+* {
+  margin : 0px ;
+  padding : 0px ;
+}
+
+main {
+  max-width: 1740px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 2000px;
+}

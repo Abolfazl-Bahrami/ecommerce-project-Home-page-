@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bahrami</title>
   <link rel="icon" type="image/x-icon" href="./assets/logo/logo.png">
-  <link rel="stylesheet" href="css/gnerate.css">
+  <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="./css/features.css">
+  <link rel="stylesheet" href="./css/gallery.css">
+  <link rel="stylesheet" href="./css/cart.css">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Arabic:wdth,wght@62.5..100,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Arabic:wdth,wght@62.5..100,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
   <header>
     <nav>
       <div class="header-right">
-      <img src="assets/logo/logo.png" alt="logo" class="logo" >
-      <p class="bahrami">Bahrami</p>
-    </div>
-    <div class="header-between">
-      <a href="./index.html" class="nav-items home" >خانه</a>
-      <a href="./index.html" class="nav-items products" >محصولات</a>
-      <a href="./index.html" class="nav-items contact-us" >تماس با ما</a>
-      <a href="./index.html" class="nav-items about-us" >درباره ی ما</a>
-    </div>
-    <div class="header-left">
-      <div class="basket-icon-div">
-        <img src="./assets/icons/cart.png" alt="cart-icon" class="basket-icon">
-        <p class="count-orders">1</p>
+        <img src="assets/logo/logo.png" alt="logo" class="logo">
+        <p class="bahrami">Bahrami</p>
       </div>
-      <button class="login-button">ورود</button>
-      <button class="Sign-up-button">ثبت نام</button>
-    </div>
+      <div class="header-between">
+        <a href="./index.html" class="nav-items home">خانه</a>
+        <a href="./index.html" class="nav-items products">محصولات</a>
+        <a href="./index.html" class="nav-items contact-us">تماس با ما</a>
+        <a href="./index.html" class="nav-items about-us">درباره ی ما</a>
+      </div>
+      <div class="header-left">
+        <div class="basket-icon-div">
+          <img src="./assets/icons/cart.png" alt="cart-icon" class="basket-icon">
+          <p class="count-orders">1</p>
+        </div>
+        <button class="login-button">ورود</button>
+        <button class="Sign-up-button">ثبت نام</button>
+      </div>
     </nav>
     <div class="hero-text">
       <p class="hero-text-title">صدایی فراتر از انتظار</p>
@@ -43,6 +51,39 @@
       </div>
     </div>
   </header>
+  <main>
+    <div class="features">
+      <div class="feature">
+        <img src="./assets/icons/feature-icons/insurance.png" class="feature-icon" alt="ضمانت اصل بودن کالا">
+        <p class="feature-title">ضمانت اصل بودن کالا</p>
+      </div>
+      <div class="feature">
+        <img src="./assets/icons/feature-icons/rotate.png" class="feature-icon" alt="هفت روز ضمانت بازگشت کالا">
+        <p class="feature-title">هفت روز ضمانت بازگشت کالا</p>
+      </div>
+      <div class="feature">
+        <img src="./assets/icons/feature-icons/customer-service-headset.png" class="feature-icon"
+          alt="پشتیبانی 24 ساعته">
+        <p class="feature-title">پشتیبانی 24 ساعته</p>
+      </div>
+      <div class="feature">
+        <img src="./assets/icons/feature-icons/delivery (1).png" class="feature-icon" alt="تحویل سریع">
+        <p class="feature-title">تحویل سریع</p>
+      </div>
+    </div>
+    <div class="gallery">
+      <p class="gallery-title">محصولات محبوب</p>
+      <a href="#" class="gallery-link">مشاهده بیشتر -></a>
+      <ul class="popular-carts">
+      </ul>
+      <div class="gallery-controls">
+        <button class="next-cart"><img class="arrow" src="./assets/icons/right-arrow.png" alt="right arrow"></button>
+        <button class="before-cart"><img class="arrow" src="./assets/icons/left-arrow.png" alt="left arrow"></button>
+      </div>
+    </div>
+  </main>
   <script type="module" src="./js/main.js"></script>
+  <script type="module" src="./js/components/product-gallery.js"></script>
 </body>
+
 </html>

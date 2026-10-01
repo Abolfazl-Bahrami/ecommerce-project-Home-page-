@@ -1,0 +1,21 @@
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 0px 10px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature .feature-icon {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: #3751748b;
+}
