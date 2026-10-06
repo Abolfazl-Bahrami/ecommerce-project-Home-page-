@@ -10,7 +10,9 @@ body {
 
 main {
   max-width: 1740px;
+  width : calc(100% - 32px);
   margin-right: auto;
   margin-left: auto;
-  height: 2000px;
+  display: flex;
+  flex-direction: column;
 }

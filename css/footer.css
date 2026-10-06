@@ -1,0 +1,104 @@
+footer {
+  background-color: #1b2e47;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  color: #A5A6A9;
+}
+
+.top-footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: calc(100% - 32px);
+  max-width: 1740px;
+  margin-inline: auto;
+}
+
+.footer-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.abolfazl {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.contact-img {
+  display: inline-block;
+  width: 30px;
+}
+
+.contact-link {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.title-link {
+  font-weight: 500;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.contact-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.text-between {
+  margin: 0;
+}
+
+.send-email {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.subscribe-button {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subscribe-image {
+  width: 35px;
+}
+
+.email-box {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #A5A6A9;
+  color: #A5A6A9;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+  font-weight: bold;
+  flex: 1;
+  min-width: 0;
+}
+
+.email-box::placeholder {
+  color: #A5A6A9;
+  opacity: 1;
+}
+
+.bottom-footer {
+  border-top: 1px solid #A5A6A9;
+  text-align: center;
+  margin-top: 20px;
+  padding : 10px 0 ;
+}

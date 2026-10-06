@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./css/features.css">
   <link rel="stylesheet" href="./css/gallery.css">
   <link rel="stylesheet" href="./css/cart.css">
+  <link rel="stylesheet" href="./css/footer.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +30,7 @@
       </div>
       <div class="header-between">
         <a href="./index.html" class="nav-items home">خانه</a>
-        <a href="./index.html" class="nav-items products">محصولات</a>
+        <a href="#gallery-carts" class="nav-items products">محصولات</a>
         <a href="./index.html" class="nav-items contact-us">تماس با ما</a>
         <a href="./index.html" class="nav-items about-us">درباره ی ما</a>
       </div>
@@ -74,14 +75,75 @@
     <div class="gallery">
       <p class="gallery-title">محصولات محبوب</p>
       <a href="#" class="gallery-link">مشاهده بیشتر -></a>
-      <ul class="popular-carts">
-      </ul>
+      <ul class="popular-carts"></ul>
       <div class="gallery-controls">
         <button class="next-cart"><img class="arrow" src="./assets/icons/right-arrow.png" alt="right arrow"></button>
         <button class="before-cart"><img class="arrow" src="./assets/icons/left-arrow.png" alt="left arrow"></button>
       </div>
     </div>
+    <div class="gallery-carts" id="gallery-carts">
+      <p class="gallery-title">محصولات پیشنهادی</p>
+      <a class="gallery-link-carts" href="#">
+        مشاهده بیشتر ->
+      </a>
+      <div class="suggest-carts"></div>
+      <div class="show-buttons">
+        <button class="show-more">مشاهده بیشتر</button>
+        <button class="show-less">مشاهده کمتر</button>
+      </div>
+    </div>
   </main>
+  <footer>
+    <div class="top-footer">
+      <div class="about-us-footer">
+        <p class="bahrami abolfazl">Abolfazl Bahrami</p>
+        <p class="footer-text">طراحی و توسعه تجربه‌های وب با تمرکز بر سادگی و تجربه کاربری.</p>
+        <a class="contact-link" href="#">
+          <img class="contact-img" src="./assets/icons/github.png" alt="github">
+        </a>
+        <a class="contact-link" href="#">
+          <img class="contact-img" src="./assets/icons/youtube.png" alt="youtube">
+        </a>
+        <a class="contact-link" href="#">
+          <img class="contact-img" src="./assets/icons/whatsapp.png" alt="whatsapp">
+        </a>
+        <a class="contact-link" href="#">
+          <img class="contact-img" src="./assets/icons/telegram.png" alt="telegram">
+        </a>
+      </div>
+      <div class="quick-links-footer">
+        <p class="footer-title">دسترسی سریع</p>
+        <p class="title-link">خانه</p>
+        <p class="title-link">محصولات</p>
+        <p class="title-link">تماس با ما</p>
+        <p class="title-link">درباره ما</p>
+      </div>
+      <div class="contsct-us-footer">
+        <p class="footer-title">ارتباط با ما</p>
+        <div class="contact-div">
+          <img class="contact-img" src="./assets/icons/envelope.png" alt="email">
+          <p class="footer-text text-between">abalfazlbahrami1385@gmail.com</p>
+        </div>
+        <div class="contact-div">
+          <img class="contact-img" src="./assets/icons/placeholder.png" alt="location">
+          <p class="footer-text text-between">اصفهان ، ایران</p>
+        </div>
+      </div>
+      <div class="newsletter">
+        <p class="footer-title">خبرنامه</p>
+        <p class="footer-text">برای دریافت آخرین اخبار و پیشنهادها، در خبرنامه ما عضو شوید.</p>
+        <div class="send-email">
+          <input type="email" class="email-box" placeholder="ایمیل خود را وارد کنید">
+          <button class="subscribe-button">
+            <img class="subscribe-image" src="./assets/icons/send2.png" alt="send">
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-footer">
+      © ۲۰۲۶ ابوالفضل بهرامی. تمامی حقوق محفوظ است.
+    </div>
+  </footer>
   <script type="module" src="./js/main.js"></script>
   <script type="module" src="./js/components/product-gallery.js"></script>
 </body>
